@@ -18,6 +18,8 @@ a {
 
 img {
   display: block;
+  min-width: 100%;
+  height: auto;
 }
 
 h1,
@@ -48,7 +50,9 @@ button {
 }
 
 .container {
-  width: 1158px;
+  max-width: 320px;
+  width: 100%;
+  /* width: 1158px; */
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -164,8 +168,10 @@ button {
 /* SECTION hero */
 
 .hero {
-  padding: 188px 0;
-  max-width: 1440px;
+  padding: 72px 0;
+  /* padding: 188px 0; */
+  /* max-width: 1440px; */
+  max-width: 320px;
   margin: 0 auto;
   background-color: #2e2f42;
   background-image: linear-gradient(
@@ -186,14 +192,17 @@ button {
 }
 
 .hero-title {
-  font-size: 56px;
-  line-height: 1.07;
+  font-size: 36px;
+  /* font-size: 56px; -Yes*/
+  /* line-height: 1.07; -Yes*/
+  line-height: 1.1;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
   text-align: center;
   margin: auto;
-  max-width: 496px;
+  /* max-width: 496px; -Yes*/
+  max-width: 216px;
 }
 
 .hero-btn {
@@ -206,13 +215,14 @@ button {
   color: #fff;
   text-align: center;
   border: none;
-  min-width: 169px;
+  min-width: 170px;
   height: 56px;
   border-radius: 4px;
   padding: 16px 32px;
   display: block;
   align-content: center;
-  margin-top: 48px;
+  /* margin-top: 48px; */
+  margin-top: 72px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
 }
@@ -931,4 +941,88 @@ button {
 .modal-btn:hover {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #404bbf;
+}
+
+/* =====- Media -===== */
+
+@media screen and (max-width: 768px) {
+  /* =====- Media TABLET -===== */
+
+  .container {
+    max-width: 768px;
+    width: 100%;
+  }
+  /* HEADER */
+
+  /* /HEADER */
+
+  /* section HERO */
+  .hero {
+    padding: 112px 0;
+    max-width: 768px;
+    width: 100%;
+  }
+
+  .hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    max-width: 496px;
+  }
+
+  .hero-btn {
+    margin-top: 36px;
+  }
+  /* /section /HERO */
+
+  /* section FEATURES */
+
+  /* /section /FEATURES */
+
+  /* section TEAM */
+
+  /* /section /TEAM */
+
+  /* section PORTFOLIO */
+
+  /* /section /PORTFOLIO */
+
+  /* FOOTER */
+
+  /* /FOOTER */
+
+  /* BACKDROP */
+
+  /* /BACKDROP */
+}
+
+@media screen and (max-width: 1158px) {
+  /* =====- Media DESCTOP -===== */
+
+  /* HEADER */
+
+  /* /HEADER */
+
+  /* section HERO */
+
+  /* /section /HERO */
+
+  /* section FEATURES */
+
+  /* /section /FEATURES */
+
+  /* section TEAM */
+
+  /* /section /TEAM */
+
+  /* section PORTFOLIO */
+
+  /* /section /PORTFOLIO */
+
+  /* FOOTER */
+
+  /* /FOOTER */
+
+  /* BACKDROP */
+
+  /* /BACKDROP */
 }
