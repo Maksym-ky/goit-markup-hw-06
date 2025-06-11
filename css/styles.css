@@ -1075,13 +1075,13 @@ button {
   /* FOOTER */
 
   .footer-container {
-    padding: 0;
+    padding-left: 108px;
   }
 
   .footer-web-social {
     display: flex;
     flex-direction: row;
-    align-items: start;
+    margin-right: auto;
     gap: 24px;
   }
 
@@ -1091,11 +1091,19 @@ button {
   }
 
   .social-media-text {
-    /* text-align: left; */
+    text-align: left;
   }
 
   .social-icons-footer {
     margin: 0;
+  }
+
+  .footer-container-subscribe {
+    margin-right: auto;
+  }
+
+  .subscribe-text {
+    text-align: left;
   }
 
   /* /FOOTER */
