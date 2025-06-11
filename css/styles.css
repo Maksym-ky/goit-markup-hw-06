@@ -178,7 +178,7 @@ button {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/offise-tablet.jpg);
+    url(../images/office-tel.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1013,6 +1013,15 @@ button {
   .hero {
     padding: 112px 0;
     width: 100%;
+    background-color: #2e2f42;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/offise-tablet.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
 
   .hero-title {
@@ -1136,7 +1145,7 @@ button {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/people-office.jpg);
+      url(../images/office-bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
