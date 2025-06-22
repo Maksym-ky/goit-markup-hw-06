@@ -324,9 +324,6 @@ button {
   background-color: #31d0aa;
 }
 
-.icon-modal-svg {
-}
-
 /* /HEADER */
 
 /* MAIN */
@@ -1181,12 +1178,6 @@ button {
 .modal-btn:hover {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #404bbf;
-}
-
-.header-modal-navigation {
-}
-
-.header-modal-list {
 }
 
 .header-menu-modal-item {
