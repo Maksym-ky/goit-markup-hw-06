@@ -1573,6 +1573,7 @@ button {
   .footer-web-studio {
     min-width: 264px;
     margin-right: 120px;
+    margin-bottom: 0;
   }
 
   .footer-container-subscribe {
